@@ -1,0 +1,29 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  # - caption: Unit Guide
+  #   numbered: false
+  #   chapters:
+  #   - file: overview/motivation
+  #   - file: overview/schedule
+  #   - file: overview/assessments
+  #   - file: overview/readingList
+     
+  # - caption: Lectures
+  #   maxdepth: 1
+  #   numbered: true      
+  #   chapters:
+  #   - file: chaps/01/chap01_0
+  #     sections: 
+  #     - glob: chaps/01/chap01_*   
+      
+  - caption: Challenging Exercises
+    maxdepth: 1
+    numbered: False
+    chapters:
+    - file: extraEx/extraEx1      
+     
+
