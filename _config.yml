@@ -34,7 +34,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon               : images/logo/odefavicon.png  # A path to a favicon image
+  # favicon               : images/logo/odefavicon.png  # A path to a favicon image
   home_page_in_navbar   : false
   use_multitoc_numbering: true     
   use_repository_button : false
