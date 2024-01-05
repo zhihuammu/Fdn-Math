@@ -1,59 +1,70 @@
-(extraEx:chap01)=
+(extraEx-chap01)=
 # Chap 1. Challenging Exercises
 
-:::{exercise} Expand and simplify the following expressions.
+:::{exercise} 
+:label: extraEx-chap01-Q1
+
+Expand and simplify the following expressions.
 
 1. $(a+b)(a-b)$ 
 
-	```{dropdown} Solution
-	$(a+b)(a-b)=a^2-b^2$ 
-	```
 
 1. $(a+b)^2$
-    ```{dropdown} Solution
-    $(a+b)^2=a^2+2ab+b^2$ 
-    ```
+
 
 1. $(a-b)^2$
-    ```{dropdown} Solution
-    $(a-b)^2=a^2-2ab+b^2$ 
-    ```
+
 
 1. $(a+b)(a^2-ab+b^2)$
-    ```{dropdown} Solution
-    $(a+b)(a^2-ab+b^2)=a^3+b^3$
-    ```
+
 
 1. $(a-b)(a^2+ab+b^2)$
-    ```{dropdown} Solution
-    $(a-b)(a^2+ab+b^2)=a^3-b^3$
-    ```
+
 
 1. $(a+b+c)^2$
-    ```{dropdown} Solution
+
+
+1. $(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$
+
+
+1. $(a+b)(m+n)$
+
+:::
+
+:::{Solution} extraEx-chap01-Q1
+:class: dropdown
+
+1. $(a+b)(a-b)=a^2-b^2$ 	
+
+1. $(a+b)^2=a^2+2ab+b^2$ 
+
+1. $(a-b)^2=a^2-2ab+b^2$ 
+
+1. $(a+b)(a^2-ab+b^2)=a^3+b^3$
+
+1. $(a-b)(a^2+ab+b^2)=a^3-b^3$
+
+
+1. 
     \begin{align*}
     ~&(a+b+c)^2\\
     =&a^2+b^2+c^2+2ab+2bc+2ac
     \end{align*}
-    ```
 
-1. $(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$
-    ```{dropdown} Solution
+1. 
     \begin{align*}
     ~&(a+b+c)(a^2+b^2+c^2-ab-bc-ca) \\
     =&a^3+b^3+c^3-3abc
     \end{align*}
-    ```
 
-1. $(a+b)(m+n)$
-    ```{dropdown} Solution
-    $(a+b)(m+n)=am+an+bm+bn$
-    ```
+
+1. $(a+b)(m+n)=am+an+bm+bn$
+
 :::
-
 
 %Q2
 :::{exercise}
+:label: extraEx-chap01-Q2
 Suppose $a$, $b$ and $c$ are three sides of a triangle $\triangle{ABC}$, and they satisfy the equation 
 
 $$a^2+b^2+c^2=ab+bc+ca$$ 
@@ -64,8 +75,11 @@ What type of the triangle $\triangle{ABC}$ is?
 1. Isosceles triangle
 1. Equilateral triangle 
 
+:::
 
-```{dropdown} Solution
+:::{Solution} extraEx-chap01-Q2
+:class: dropdown
+
 $$
 \begin{aligned}
 	~ & \quad  a^2+b^2+c^2=ab+bc+ca \\
@@ -75,168 +89,222 @@ $$
 	\Rightarrow & \quad a=b=c
 \end{aligned}
 $$
-
 $\therefore \triangle{ABC}$ is an equilateral triangle.
-```
+:::
+
+%Q3
+:::{exercise}
+:label: extraEx-chap01-Q3
+Factorise the following expressions.
+
+1. $2ax-10ay+5by-bx$
+
+  
+1. $a^2-ab+ac-bc$
+
+  
+1. $xy-x-y+1$
+
+  
+1. $x^2-y^2+ax+ay$
+
+  
+1. $a^2-2ab+b^2-c^2$
+
+  
+1. $x^2-x-9y^2-3y$
+
+  
+1. $x^2-y^2-z^2-2yz$
+
+  
+1. $x^3+x^2y-xy^2-y^3$
+
+  
+1. $ax^2-bx^2+bx-ax+a-b$
+
+  
+1. $x^2+6xy+9y^2-16a^2+8a-1$
+
+  
+1. $a^2-6ab+12b+9b^2-4a$
+
+  
+1. $a^4-2a^3+a^2-9$
+
+  
+1. $4a^2x-4a^2y-b^2x+b^2y$
+
+  
+1. $x^2-2xy-xz+yz+y^2$
+
+  
+1. $a^2-2a+b^2-2b+2ab+1$
+
+  
+1. $(a+c)(a-c)+b(b-2a)$
 
 :::
 
+:::{solution} extraEx-chap01-Q3
+:class: dropdown
 
-%Q3
-:::{exercise} Factorise the following expressions.
-1. $2ax-10ay+5by-bx$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~&2ax-10ay+5by-bx \\
       =&2a(x-5y)-b(x-5y)\\
       =&(2a-b)(x-5y)
     \end{align*}
-    ```
+    $$
   
-1. $a^2-ab+ac-bc$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~&a^2-ab+ac-bc\\
       =&a(a-b)+c(a-b) \\
       =&(a+c)(a-b)
     \end{align*}
-    ```
+    $$
   
-1. $xy-x-y+1$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~ & xy-x-y+1 \\
       = & x(y-1)-(y-1)\\
       = &(x-1)(y-1)
     \end{align*}
-    ```
+    $$
   
-1. $x^2-y^2+ax+ay$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~ & x^2-y^2+ax+ay \\
       = &(x-y)(x+y)+a(x+y) \\
       = &(x+y)(x-y+a)
     \end{align*}
-    ```
+    $$
   
-1. $a^2-2ab+b^2-c^2$
-    ```{dropdown} Solution
+1.
+    $$
     \begin{align*}
       ~ & a^2-2ab+b^2-c^2 \\
       = &(a-b)^2-c^2\\
       = &(a-b+c)(a-b-c)
     \end{align*}
-    ```
+    $$
   
-1. $x^2-x-9y^2-3y$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& x^2-x-9y^2-3y\\
       =&(x^2-9y^2)-(x+3y)\\
       =&(x-3y)(x+3y)-(x+3y)\\
       =&(x-3y-1)(x+3y)
     \end{align*}
-    ```
+    $$
   
-1. $x^2-y^2-z^2-2yz$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& x^2-y^2-z^2-2yz\\
       = &x^2-(y^2+2yz+z^2)\\
       = &x^2-(y+z)^2\\
       = &(x+y+z)(x-y-z)
     \end{align*}
-    ```
+    $$
   
-1. $x^3+x^2y-xy^2-y^3$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& x^3+x^2y-xy^2-y^3\\
       = &x^2(x+y)-y^2(x+y)\\
       = &(x^2-y^2)(x+y)\\
       = &(x-y)(x+y)^2
     \end{align*}
-    ```
+    $$
   
-1. $ax^2-bx^2+bx-ax+a-b$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~ & ax^2-bx^2+bx-ax+a-b \\
       = &x^2(a-b)-x(a-b)+(a-b)\\
       = &(a-b)(x^2-x+1)
     \end{align*}
-    ```
+    $$
   
-1. $x^2+6xy+9y^2-16a^2+8a-1$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~ & x^2+6xy+9y^2-16a^2+8a-1 \\
       = &(x+3y)^2-(4a-1)^2\\
       = &(x+3y+4a-1)(x+3y-4a+1)
     \end{align*}
-    ```
+    $$
   
-1. $a^2-6ab+12b+9b^2-4a$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& a^2-6ab+12b+9b^2-4a\\
       = &(a^2-6ab+9b^2)-4(a-3b)\\
       = &(a-3b)^2-4(a-3b)\\
       = &(a-3b)(a-3b-4)
     \end{align*}
-    ```
+    $$
   
-1. $a^4-2a^3+a^2-9$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& a^4-2a^3+a^2-9\\
       = &(a^2-a)^2-9\\
       = &(a^2-a+3)(a^2-a-3)
     \end{align*}
-    ```
+    $$
   
-1. $4a^2x-4a^2y-b^2x+b^2y$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& 4a^2x-4a^2y-b^2x+b^2y \\
       = &4a^2(x-y)-b^2(x-y)\\
       = &(x-y)(2a+b)(2a-b)
     \end{align*}
-    ```
+    $$
   
-1. $x^2-2xy-xz+yz+y^2$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& x^2-2xy-xz+yz+y^2 \\
       = &(x-y)^2-z(x-y) \\
       = &(x-y)(x-y-z)
     \end{align*}
-    ```
+    $$
   
-1. $a^2-2a+b^2-2b+2ab+1$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~& a^2-2a+b^2-2b+2ab+1 \\
       = &a^2+2ab+b^2-2a-2b+1\\
       = &(a+b)^2-2(a+b)+1 \\
       = &(a+b-1)^2
     \end{align*}
-    ```
+    $$
   
-1. $(a+c)(a-c)+b(b-2a)$
-    ```{dropdown} Solution
+1. 
+    $$
     \begin{align*}
       ~ & (a+c)(a-c)+b(b-2a)\\
       = &a^2-c^2+b^2-2ab\\
       = &(a^2-2ab+b^2)-c^2\\
       = &(a-b+c)(a-b-c)
     \end{align*}
-    ```
+    $$
 :::
 
+
 %Q4
-:::{exercise} Factorise the following expressions.
+:::{exercise} 
+:label: extraEx-chap01-Q4
+Factorise the following expressions.
 
 1. $3x^2-11x+10$
     ```{dropdown} Solution    
@@ -395,3 +463,4 @@ $\therefore \triangle{ABC}$ is an equilateral triangle.
     \end{align*}
     ```
 :::
+
