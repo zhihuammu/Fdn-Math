@@ -1,5 +1,8 @@
-(extraEx-chap01)=
-# Chap 1. Challenging Exercises
+(chap01)=
+# Chap 1. Basic Algebra
+
+(chap01-extraEx)=
+## Chap 1. Challenging Exercises
 
 :::{exercise} 
 :label: extraEx-chap01-Q1
@@ -31,7 +34,7 @@ Expand and simplify the following expressions.
 
 :::
 
-:::{Solution} extraEx-chap01-Q1
+:::{solution} extraEx-chap01-Q1
 :class: dropdown
 
 1. $(a+b)(a-b)=a^2-b^2$ 	
@@ -45,11 +48,12 @@ Expand and simplify the following expressions.
 1. $(a-b)(a^2+ab+b^2)=a^3-b^3$
 
 
-1. 
+1. $$
     \begin{align*}
     ~&(a+b+c)^2\\
     =&a^2+b^2+c^2+2ab+2bc+2ac
     \end{align*}
+   $$
 
 1. 
     \begin{align*}
@@ -77,7 +81,7 @@ What type of the triangle $\triangle{ABC}$ is?
 
 :::
 
-:::{Solution} extraEx-chap01-Q2
+:::{solution} extraEx-chap01-Q2
 :class: dropdown
 
 $$
