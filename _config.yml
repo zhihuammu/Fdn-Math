@@ -36,7 +36,7 @@ repository:
 html:
   # favicon               : images/logo/odefavicon.png  # A path to a favicon image
   home_page_in_navbar   : false
-  use_multitoc_numbering: true     
+  use_multitoc_numbering: false     
   use_repository_button : false
   use_edit_page_button  : false
   use_issues_button     : false
