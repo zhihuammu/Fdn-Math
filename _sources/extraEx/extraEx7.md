@@ -253,7 +253,7 @@ We also know that the function is periodic, and its period is 2. So we can obtai
   & b = f\left( \frac{3}{2}\right)= f\left( 2- \frac{1}{2}\right) = f\left( -\frac{1}{2}\right)= -f\left( \frac{1}{2}\right) \\
   & c = f\left( \frac{5}{2}\right)= f\left( 2+ \frac{1}{2}\right) = f\left(  \frac{1}{2}\right)=  f\left( \frac{1}{2}\right)  
 \end{align*}
-Marking these points on the graph, we will know that \underline{$c < a < b$}.
+Marking these points on the graph, we will know that $c < a < b$.
 :::
 
   %Q8 
@@ -291,7 +291,7 @@ Therefore $\log_a x + \log_a y = \log_a (xy) = m+n>2 $
 
 Supposing $f(x)=\log\frac{2+x}{2-x}$, the domain of
 the $ g(x)=
-f\left(\frac{x}{2}\right)+f\left(\frac{2}{x}\right)$ should be \underline{\hspace{1cm}}.
+f\left(\frac{x}{2}\right)+f\left(\frac{2}{x}\right)$ should be :
 
 
 1.  $(-4, 0) \cup (0, 4)$
