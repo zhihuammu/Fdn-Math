@@ -160,7 +160,7 @@ div.admonition.admonition-youtube > .admonition-title:after {
 /*********************************************
 * hyperlink *
 *********************************************/
-a:link {
+/* a:link {
   color: #176DE8;
   background-color: transparent;
   text-decoration: none !important;
@@ -173,10 +173,9 @@ a:visited {
 }
 
 a:hover {
-  /* color: orange; */
   background-color: rgba(255, 166, 0, 0.1);
   text-decoration: none;
-}
+} */
 
 /* a:active {
   color: red;

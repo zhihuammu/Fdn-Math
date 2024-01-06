@@ -70,14 +70,13 @@ const thebe_selector_output = ".output, .cell_output"
     <script>window.MathJax = {"tex": {"macros": {"N": "\\mathbb{N}", "Z": "\\mathbb{Z}", "R": "\\mathbb{R}", "C": "\\mathbb{C}", "D": "\\mathrm{D}", "E": "\\mathrm{E}", "S": "\\mathrm{S}", "dy": "\\mathrm{d}y", "dx": "\\mathrm{d}x", "ds": "\\mathrm{d}s", "dt": "\\mathrm{d}t", "i": "\\mathbf{\\hat{i}}", "diff": ["\\frac{\\mathrm{d}^{#1}{#2}}{\\mathrm{d}{#3}^{#1}}", 3, ""], "pdiff": ["\\frac{\\partial^{#1}{#2}}{\\partial{#3}^{#1}}", 3, ""]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'chaps/01/chap01_4_homogenous';</script>
-    <link rel="shortcut icon" href="../../_static/odefavicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="1.5. Chapter 1 Exercises" href="chap01_5_exercise.html" />
     <link rel="prev" title="1.3. Difference Equations" href="chap01_3_differenceEquation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Friday 05 January 2024 22:24:07"/>
+    <meta name="docbuild:last-update" content="Saturday 06 January 2024 23:44:05"/>
   </head>
   
   
@@ -151,7 +150,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
 
-<a class="navbar-brand logo" href="../../intro.html">
+<a class="navbar-brand logo" href="../../index.html">
   
   
   
@@ -162,8 +161,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../_static/logo.svg" class="logo__image only-light" alt="Foundation Mathematics - Home"/>
-    <script>document.write(`<img src="../../_static/logo.svg" class="logo__image only-dark" alt="Foundation Mathematics - Home"/>`);</script>
+    <img src="../../_static/logob.svg" class="logo__image only-light" alt="Foundation Mathematics - Home"/>
+    <script>document.write(`<img src="../../_static/logob.svg" class="logo__image only-dark" alt="Foundation Mathematics - Home"/>`);</script>
   
   
 </a></div>
@@ -180,14 +179,7 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Unit Guide</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../overview/motivation.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../overview/schedule.html">Teaching Schedule</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../overview/assessments.html">Assessments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../overview/readingList.html">Further Reading List</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Lectures</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Lectures</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="chap01_0.html">1. Complex Numbers and Difference Equations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="chap01_1_complexNumber.html">1.1. Complex Numbers</a></li>
@@ -200,7 +192,13 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Challenging Exercises</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx1.html">2. Chap 1. Challenging Exercises and Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx1.html">1. Challenging Exercise 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx2.html">2. Challenging Exercise 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx3.html">3. Challenging Exercise 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx4.html">4. Challenging Exercise 4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx5.html">5. Challenging Exercise 5</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx6.html">6. Challenging Exercise 6</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extraEx/extraEx7.html">7. Challenging Exercise 7</a></li>
 </ul>
 
     </div>
@@ -399,8 +397,8 @@ L(z)= a_0 + a_1 z + a_2 z^2 + \ldots + a_{k-1} z^{k-1} + a_k z^{k}=0.
 <p class="admonition-title"><span class="caption-number">Theorem 1.2 </span></p>
 <div class="theorem-content section" id="proof-content">
 <p>Let <span class="math notranslate nohighlight">\(z_p~(p=1,2,3,\ldots,k)\)</span> be any solution to the characteristic equation <a class="reference internal" href="#equation-eq-de-linear-char">(1.15)</a>, then</p>
-<div class="amsmath math notranslate nohighlight" id="equation-19a504e4-6ee2-4bf9-b9d1-1786a9542de4">
-<span class="eqno">(1.16)<a class="headerlink" href="#equation-19a504e4-6ee2-4bf9-b9d1-1786a9542de4" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-8aa6d9d1-f098-415f-8a55-80b93879c3a3">
+<span class="eqno">(1.16)<a class="headerlink" href="#equation-8aa6d9d1-f098-415f-8a55-80b93879c3a3" title="Permalink to this equation">#</a></span>\[\begin{equation}
 y_n = z_p^n
 \end{equation}\]</div>
 <p>is a solution to the homogeneous equation <a class="reference internal" href="#equation-eq-de-linear-homogeneous-constant">(1.12)</a>.</p>
@@ -429,8 +427,8 @@ L(\E) z_p^n = ~ &amp; \left(a_0 + a_1 \E + a_2 \E^2 + \ldots + a_{k-1}\E^{k-1}+a
 <p class="admonition-title"><span class="caption-number">Theorem 1.3 </span></p>
 <div class="theorem-content section" id="proof-content">
 <p>Assume the <span class="math notranslate nohighlight">\(k\)</span> roots of  the characteristic equation are distinct, then a fundamental set of solutions is</p>
-<div class="amsmath math notranslate nohighlight" id="equation-d9a92a15-a52f-4231-9d11-21f3881f5307">
-<span class="eqno">(1.17)<a class="headerlink" href="#equation-d9a92a15-a52f-4231-9d11-21f3881f5307" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-29502496-0a9a-4a2c-8ec9-4a6ed8e92bf1">
+<span class="eqno">(1.17)<a class="headerlink" href="#equation-29502496-0a9a-4a2c-8ec9-4a6ed8e92bf1" title="Permalink to this equation">#</a></span>\[\begin{equation}
 z_p^n \quad (p=1,2,\ldots,k).
 \end{equation}\]</div>
 <p>An immediate consequence of this theorem, for this particular case, is that the general solution to the homogeneous equation <a class="reference internal" href="#equation-eq-de-linear-homogeneous-constant">(1.12)</a> is</p>
@@ -772,7 +770,7 @@ By Dr Zhihua Ma
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Friday 05 January 2024 22:24:07.
+  Last updated on Saturday 06 January 2024 23:44:05.
   <br/>
 </p>
   </div>
