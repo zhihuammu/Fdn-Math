@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: index
 parts:
   # - caption: Unit Guide
   #   numbered: false
@@ -22,8 +22,15 @@ parts:
       
   - caption: Challenging Exercises
     maxdepth: 1
-    numbered: False
+    numbered: True
     chapters:
-    - file: extraEx/extraEx1      
+    - file: extraEx/extraEx1
+    - file: extraEx/extraEx2
+    - file: extraEx/extraEx3
+    - file: extraEx/extraEx4
+    - file: extraEx/extraEx5
+    - file: extraEx/extraEx6
+    - file: extraEx/extraEx7
+
      
 
