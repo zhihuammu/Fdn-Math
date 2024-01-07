@@ -160,6 +160,9 @@ div.admonition.admonition-youtube > .admonition-title:after {
 /*********************************************
 * hyperlink *
 *********************************************/
+a:link, a:link * {
+  text-decoration: none !important;  
+}
 /* a:link {
   color: #176DE8;
   background-color: transparent;
