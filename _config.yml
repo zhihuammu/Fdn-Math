@@ -140,6 +140,8 @@ parse:
     - html_admonition
     - fieldlist   
     - deflist    
+    # - attrs_inline
+    # - attrs_block
   # myst_url_schemes: [mailto, http, https] # URI schemes that will be recognised as external URLs in Markdown links
   myst_dmath_double_inline: false  # Allow display math ($$) within an inline context    
 
