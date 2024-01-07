@@ -191,32 +191,7 @@ The domain of the function $y=\log_a(kx^2+4kx+3)$ is $\mathbb{R}$, find the
 ranges of $k$.
 :::
 
-:::{solution} chap07-extraEx-q11
-:class: dropdown
-For a general logarithm function $f(x)=\log_a x$, $x$ should be larger than zero.
-So for $y=\log_a (kx^2+4kx+3)$, we can obtain
 
-$$kx^2+4kx+3>0
-$$
- for $x\in \mathbb{R}$. We need to find the minimum value
-of $g(x)=kx^2+4kx+3$ and ensure it is larger than zero
-\begin{align*}
-  g(x)= & kx^2+4kx+3 \\
-  = & kx^2+4kx+4k-4k+3 \\
-  = & k(x^2+4x+4)-4k+3 \\
-  = & k(x+2)^2 +3-4k
-\end{align*}
-When $x=-2$, the minimum of $g(x)$ is $3-4k$ and it should be larger than zero, so
-
-$$3-4k>0
-$$
-
-therefore 
-
-$$k< \dfrac{3}{4}
-$$
-    
-:::
 
 
   %Q12
@@ -529,6 +504,32 @@ $$
 
 :::
 
+:::{solution} chap07-extraEx-q11
+:class: dropdown
+For a general logarithm function $f(x)=\log_a x$, $x$ should be larger than zero.
+So for $y=\log_a (kx^2+4kx+3)$, we can obtain
+
+$$kx^2+4kx+3>0
+$$
+ for $x\in \mathbb{R}$. We need to find the minimum value
+of $g(x)=kx^2+4kx+3$ and ensure it is larger than zero
+\begin{align*}
+  g(x)= & kx^2+4kx+3 \\
+  = & kx^2+4kx+4k-4k+3 \\
+  = & k(x^2+4x+4)-4k+3 \\
+  = & k(x+2)^2 +3-4k
+\end{align*}
+When $x=-2$, the minimum of $g(x)$ is $3-4k$ and it should be larger than zero, so
+
+$$3-4k>0
+$$
+
+therefore 
+
+$$k< \dfrac{3}{4}
+$$
+    
+:::
 
 :::{solution} chap07-extraEx-q12
 :class: dropdown
