@@ -29,7 +29,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -37,8 +37,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/proof.css" />
     <link rel="stylesheet" type="text/css" href="../_static/exercise.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
@@ -53,7 +53,7 @@
     <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script src="../_static/tabs.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
@@ -75,7 +75,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="prev" title="6. Challenging Exercise 6" href="extraEx6.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Saturday 06 January 2024 23:45:42"/>
+    <meta name="docbuild:last-update" content="Sunday 07 January 2024 13:39:24"/>
   </head>
   
   
@@ -165,18 +165,7 @@ const thebe_selector_output = ".output, .cell_output"
   
   
 </a></div>
-        <div class="sidebar-primary-item">
-
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
-        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Challenging Exercises</span></p>
 <ul class="current nav bd-sidenav">
@@ -312,7 +301,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -328,6 +319,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#solutions-to-challenging-exercise-7">7.1. Solutions to Challenging Exercise 7</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -353,16 +352,6 @@ document.write(`
 </ol>
 </div>
 </div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-1">
-
-<p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q1"> Exercise 7.1</a></p>
-<div class="section" id="solution-content">
-<p>Supposing <span class="math notranslate nohighlight">\(f(x)=x^2\)</span>, it is an even function and symmetric about <span class="math notranslate nohighlight">\(x=0\)</span>. We could obtain <span class="math notranslate nohighlight">\(f(x-1)=(x-1)^2\)</span>, it is symmetric about <span class="math notranslate nohighlight">\(x=1\)</span> as shown in the following figure.</p>
-<div class="figure align-default" id="figure-ex7q1">
-<a class="reference internal image-reference" href="../_images/Ex7Q1.svg"><img alt="../_images/Ex7Q1.svg" src="../_images/Ex7Q1.svg" width="400px" /></a>
-</div>
-</div>
-</div>
 <div class="exercise admonition" id="chap07-extraEx-q2">
 
 <p class="admonition-title"><span class="caption-number">Exercise 7.2 </span></p>
@@ -375,17 +364,6 @@ document.write(`
 <li><p>third</p></li>
 <li><p>fourth</p></li>
 </ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-3">
-
-<p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q2"> Exercise 7.2</a></p>
-<div class="section" id="solution-content">
-<p>Supposing <span class="math notranslate nohighlight">\(a=0.5\)</span> and <span class="math notranslate nohighlight">\(b=-2\)</span>, We could have the following graph.</p>
-<div class="figure align-default" id="figure-ex7q2">
-<a class="reference internal image-reference" href="../_images/Ex7Q2.svg"><img alt="../_images/Ex7Q2.svg" src="../_images/Ex7Q2.svg" width="400px" /></a>
-</div>
-<p>Apparently, the curve doesn’t pass the first quadrant.</p>
 </div>
 </div>
 <div class="exercise admonition" id="chap07-extraEx-q3">
@@ -402,7 +380,232 @@ condition should <span class="math notranslate nohighlight">\(x\)</span> satisfy
 </ul>
 </div>
 </div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-5">
+<div class="exercise admonition" id="chap07-extraEx-q4">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.4 </span></p>
+<div class="section" id="exercise-content">
+<p>The sum of the minimum and maximum of <span class="math notranslate nohighlight">\(\displaystyle y=a^x\)</span> (<span class="math notranslate nohighlight">\(0\leq x  \leq 1\)</span>) is 3, then <span class="math notranslate nohighlight">\(a\)</span> is:</p>
+<ol class="arabic simple">
+<li><p>0.5</p></li>
+<li><p>2</p></li>
+<li><p>4</p></li>
+<li><p>0.25</p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q5">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.5 </span></p>
+<div class="section" id="exercise-content">
+<p><span class="math notranslate nohighlight">\(f(x)\)</span> is an odd function, when <span class="math notranslate nohighlight">\(x&gt;0\)</span>, <span class="math notranslate nohighlight">\(f(x)=\log_2 x\)</span>; when <span class="math notranslate nohighlight">\(x&lt;0\)</span>, <span class="math notranslate nohighlight">\(f(x)\)</span> should be :</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(-\log_2 x\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\log_2 (-x)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\log_2 x\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(-\log_2 (-x)\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q6">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.6 </span></p>
+<div class="section" id="exercise-content">
+<p>The real solutions of quadratic equation <span class="math notranslate nohighlight">\(2(m+1)x^2+4mx+3m-2=0\)</span>
+have the same sign, then <span class="math notranslate nohighlight">\(m\)</span> should satisfy:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(-2&lt;m&lt;-1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(-2\leq m &lt; -1 \)</span> or <span class="math notranslate nohighlight">\( \dfrac{2}{3} &lt; m \leq 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(m&lt;-1\)</span> or <span class="math notranslate nohighlight">\( m&gt; \dfrac{2}{3}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(-2&lt;m&lt;-1\)</span> or <span class="math notranslate nohighlight">\( \dfrac{2}{3}&lt;m \leq 1\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q7">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.7 </span></p>
+<div class="section" id="exercise-content">
+<p><span class="math notranslate nohighlight">\(f(x)\)</span> is odd function and <span class="math notranslate nohighlight">\(f(x+2)=f(x)\)</span>, when <span class="math notranslate nohighlight">\(0&lt;x&lt;1\)</span>, <span class="math notranslate nohighlight">\(f(x)=\log_2
+  x\)</span>. Supposing <span class="math notranslate nohighlight">\(\displaystyle a=f\left(\dfrac{6}{5}\right)\)</span>, <span class="math notranslate nohighlight">\(\displaystyle
+  b=f\left(\dfrac{3}{2}\right)\)</span>, <span class="math notranslate nohighlight">\(\displaystyle c=f\left(\dfrac{5}{2}\right)\)</span>,
+then they have the following relationship:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(a&lt;b&lt;c\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(b&lt;a&lt;c\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(c&lt;b&lt;a\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(c&lt;a&lt;b\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q8">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.8 </span></p>
+<div class="section" id="exercise-content">
+<p>Supposing <span class="math notranslate nohighlight">\(0&lt;x&lt;y&lt;a&lt;1\)</span>, which of the followings is correct?</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\log_a (xy)&lt;0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0&lt;\log_a(xy)&lt;1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(1&lt;\log_a(xy)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\log_a(xy)&gt;2\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q9">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.9 </span></p>
+<div class="section" id="exercise-content">
+<p>Supposing <span class="math notranslate nohighlight">\(f(x)=\log\dfrac{2+x}{2-x}\)</span>, the domain of
+the <span class="math notranslate nohighlight">\( g(x)=
+f\left(\dfrac{x}{2}\right)+f\left(\dfrac{2}{x}\right)\)</span> should be :</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\((-4, 0) \cup (0, 4)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((-4, -1) \cup (1, 4)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((-2, -1) \cup (1, 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((-4, -2) \cup (2, 4)\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q10">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.10 </span></p>
+<div class="section" id="exercise-content">
+<div class="math notranslate nohighlight">
+\[\begin{split}
+  f(x) = \left\{
+    \begin{array}{ll}
+      (3a-1)x+4a, &amp; x&lt;1 \\
+      \log_a x, &amp; x\geq 1
+    \end{array}
+    \right.
+\end{split}\]</div>
+<p>is a decreasing function, the range of <span class="math notranslate nohighlight">\(a\)</span> is:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(0&lt;a&lt;1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle 0&lt;a&lt;\dfrac{1}{3}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \dfrac{1}{7}\leq a &lt; \dfrac{1}{3}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \dfrac{1}{7} \leq a &lt; 1\)</span></p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q11">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.11 </span></p>
+<div class="section" id="exercise-content">
+<p>The domain of the function <span class="math notranslate nohighlight">\(y=\log_a(kx^2+4kx+3)\)</span> is <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>, find the
+ranges of <span class="math notranslate nohighlight">\(k\)</span>.</p>
+</div>
+</div>
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-11">
+
+<p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q11"> Exercise 7.11</a></p>
+<div class="section" id="solution-content">
+<p>For a general logarithm function <span class="math notranslate nohighlight">\(f(x)=\log_a x\)</span>, <span class="math notranslate nohighlight">\(x\)</span> should be larger than zero.
+So for <span class="math notranslate nohighlight">\(y=\log_a (kx^2+4kx+3)\)</span>, we can obtain</p>
+<div class="math notranslate nohighlight">
+\[kx^2+4kx+3&gt;0
+\]</div>
+<p>for <span class="math notranslate nohighlight">\(x\in \mathbb{R}\)</span>. We need to find the minimum value
+of <span class="math notranslate nohighlight">\(g(x)=kx^2+4kx+3\)</span> and ensure it is larger than zero</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{align*}
+  g(x)= &amp; kx^2+4kx+3 \\
+  = &amp; kx^2+4kx+4k-4k+3 \\
+  = &amp; k(x^2+4x+4)-4k+3 \\
+  = &amp; k(x+2)^2 +3-4k
+\end{align*}\]</div>
+<p>When <span class="math notranslate nohighlight">\(x=-2\)</span>, the minimum of <span class="math notranslate nohighlight">\(g(x)\)</span> is <span class="math notranslate nohighlight">\(3-4k\)</span> and it should be larger than zero, so</p>
+<div class="math notranslate nohighlight">
+\[3-4k&gt;0
+\]</div>
+<p>therefore</p>
+<div class="math notranslate nohighlight">
+\[k&lt; \dfrac{3}{4}
+\]</div>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q12">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.12 </span></p>
+<div class="section" id="exercise-content">
+<p>Function <span class="math notranslate nohighlight">\(f(x)=2ax+2a+1\)</span>, <span class="math notranslate nohighlight">\(x \in [-1, 1]\)</span> has both positive and
+negative values, find the ranges of <span class="math notranslate nohighlight">\(a\)</span>.</p>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q13">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.13 </span></p>
+<div class="section" id="exercise-content">
+<p>The brightness of light reduces by <span class="math notranslate nohighlight">\(10\%\)</span> when the light passes
+through a piece of glass of 1 cm thickness. How many pieces of glasses with
+the same thickness would be needed to reduce the brightness of light by
+<span class="math notranslate nohighlight">\(\dfrac{2}{3}\)</span>.</p>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q14">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.14 </span></p>
+<div class="section" id="exercise-content">
+<p>Supposing <span class="math notranslate nohighlight">\(a&gt;0\)</span>, <span class="math notranslate nohighlight">\(\displaystyle f(x)= \dfrac{e^x}{a}+\dfrac{a}{e^x}\)</span>
+is an even function.</p>
+<ol class="arabic simple">
+<li><p>Find the value of <span class="math notranslate nohighlight">\(a\)</span>;</p></li>
+<li><p>Prove that <span class="math notranslate nohighlight">\(f(x)\)</span> is an increasing function for <span class="math notranslate nohighlight">\(x\in (0, +\infty)\)</span>.</p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q15">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.15 </span></p>
+<div class="section" id="exercise-content">
+<p>Supposing the domain of the function <span class="math notranslate nohighlight">\(\displaystyle f(x) =
+\sqrt{2-\dfrac{x+3}{x-1}}\)</span> is <span class="math notranslate nohighlight">\(\mathbf{A}\)</span>, the domain of the function
+<span class="math notranslate nohighlight">\(g(x) = \log \left[(x-a-1)(2a-x)\right]\)</span>, <span class="math notranslate nohighlight">\(a&lt;1\)</span> is <span class="math notranslate nohighlight">\(\mathbf{B}\)</span>.</p>
+<ol class="arabic simple">
+<li><p>Find <span class="math notranslate nohighlight">\(\mathbf{A}\)</span>;</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(\mathbf{B} \subseteq \mathbf{A}\)</span>, find the ranges of <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+</ol>
+</div>
+</div>
+<div class="exercise admonition" id="chap07-extraEx-q16">
+
+<p class="admonition-title"><span class="caption-number">Exercise 7.16 </span></p>
+<div class="section" id="exercise-content">
+<p>Sketch the inverse function for each function in the following graphs.</p>
+<ol class="arabic">
+<li><div class="figure align-default" id="figure-ex7q16a">
+<a class="reference internal image-reference" href="../_images/Ex7Q16a.svg"><img alt="../_images/Ex7Q16a.svg" src="../_images/Ex7Q16a.svg" width="400px" /></a>
+</div>
+</li>
+<li><div class="figure align-default" id="figure-ex7q16b">
+<a class="reference internal image-reference" href="../_images/Ex7Q16b.svg"><img alt="../_images/Ex7Q16b.svg" src="../_images/Ex7Q16b.svg" width="400px" /></a>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="solutions-to-challenging-exercise-7">
+<h2><span class="section-number">7.1. </span>Solutions to Challenging Exercise 7<a class="headerlink" href="#solutions-to-challenging-exercise-7" title="Permalink to this heading">#</a></h2>
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-17">
+
+<p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q1"> Exercise 7.1</a></p>
+<div class="section" id="solution-content">
+<p>Supposing <span class="math notranslate nohighlight">\(f(x)=x^2\)</span>, it is an even function and symmetric about <span class="math notranslate nohighlight">\(x=0\)</span>. We could obtain <span class="math notranslate nohighlight">\(f(x-1)=(x-1)^2\)</span>, it is symmetric about <span class="math notranslate nohighlight">\(x=1\)</span> as shown in the following figure.</p>
+<div class="figure align-default" id="figure-ex7q1">
+<a class="reference internal image-reference" href="../_images/Ex7Q1.svg"><img alt="../_images/Ex7Q1.svg" src="../_images/Ex7Q1.svg" width="400px" /></a>
+</div>
+</div>
+</div>
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-18">
+
+<p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q2"> Exercise 7.2</a></p>
+<div class="section" id="solution-content">
+<p>Supposing <span class="math notranslate nohighlight">\(a=0.5\)</span> and <span class="math notranslate nohighlight">\(b=-2\)</span>, We could have the following graph.</p>
+<div class="figure align-default" id="figure-ex7q2">
+<a class="reference internal image-reference" href="../_images/Ex7Q2.svg"><img alt="../_images/Ex7Q2.svg" src="../_images/Ex7Q2.svg" width="400px" /></a>
+</div>
+<p>Apparently, the curve doesn’t pass the first quadrant.</p>
+</div>
+</div>
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-19">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q3"> Exercise 7.3</a></p>
 <div class="section" id="solution-content">
@@ -424,20 +627,7 @@ condition should <span class="math notranslate nohighlight">\(x\)</span> satisfy
 <p>Apparently, the <span class="math notranslate nohighlight">\(x-\)</span>coordinate of the intersection is between 2 and 3.</p>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q4">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.4 </span></p>
-<div class="section" id="exercise-content">
-<p>The sum of the minimum and maximum of <span class="math notranslate nohighlight">\(\displaystyle y=a^x\)</span> (<span class="math notranslate nohighlight">\(0\leq x  \leq 1\)</span>) is 3, then <span class="math notranslate nohighlight">\(a\)</span> is:</p>
-<ol class="arabic simple">
-<li><p>0.5</p></li>
-<li><p>2</p></li>
-<li><p>4</p></li>
-<li><p>0.25</p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-7">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-20">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q4"> Exercise 7.4</a></p>
 <div class="section" id="solution-content">
@@ -446,20 +636,7 @@ condition should <span class="math notranslate nohighlight">\(x\)</span> satisfy
 <p><span class="math notranslate nohighlight">\(a=2\)</span></p>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q5">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.5 </span></p>
-<div class="section" id="exercise-content">
-<p><span class="math notranslate nohighlight">\(f(x)\)</span> is an odd function, when <span class="math notranslate nohighlight">\(x&gt;0\)</span>, <span class="math notranslate nohighlight">\(f(x)=\log_2 x\)</span>; when <span class="math notranslate nohighlight">\(x&lt;0\)</span>, <span class="math notranslate nohighlight">\(f(x)\)</span> should be :</p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(-\log_2 x\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\log_2 (-x)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\log_2 x\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(-\log_2 (-x)\)</span></p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-9">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-21">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q5"> Exercise 7.5</a></p>
 <div class="section" id="solution-content">
@@ -471,21 +648,7 @@ condition should <span class="math notranslate nohighlight">\(x\)</span> satisfy
 \]</div>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q6">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.6 </span></p>
-<div class="section" id="exercise-content">
-<p>The real solutions of quadratic equation <span class="math notranslate nohighlight">\(2(m+1)x^2+4mx+3m-2=0\)</span>
-have the same sign, then <span class="math notranslate nohighlight">\(m\)</span> should satisfy:</p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(-2&lt;m&lt;-1\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(-2\leq m &lt; -1 \)</span> or <span class="math notranslate nohighlight">\( \dfrac{2}{3} &lt; m \leq 1\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(m&lt;-1\)</span> or <span class="math notranslate nohighlight">\( m&gt; \dfrac{2}{3}\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(-2&lt;m&lt;-1\)</span> or <span class="math notranslate nohighlight">\( \dfrac{2}{3}&lt;m \leq 1\)</span></p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-11">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-22">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q6"> Exercise 7.6</a></p>
 <div class="section" id="solution-content">
@@ -526,23 +689,7 @@ be larger than or equal to zero</p>
 \]</div>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q7">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.7 </span></p>
-<div class="section" id="exercise-content">
-<p><span class="math notranslate nohighlight">\(f(x)\)</span> is odd function and <span class="math notranslate nohighlight">\(f(x+2)=f(x)\)</span>, when <span class="math notranslate nohighlight">\(0&lt;x&lt;1\)</span>, <span class="math notranslate nohighlight">\(f(x)=\log_2
-  x\)</span>. Supposing <span class="math notranslate nohighlight">\(\displaystyle a=f\left(\dfrac{6}{5}\right)\)</span>, <span class="math notranslate nohighlight">\(\displaystyle
-  b=f\left(\dfrac{3}{2}\right)\)</span>, <span class="math notranslate nohighlight">\(\displaystyle c=f\left(\dfrac{5}{2}\right)\)</span>,
-then they have the following relationship:</p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(a&lt;b&lt;c\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(b&lt;a&lt;c\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(c&lt;b&lt;a\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(c&lt;a&lt;b\)</span></p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-13">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-23">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q7"> Exercise 7.7</a></p>
 <div class="section" id="solution-content">
@@ -561,20 +708,7 @@ then they have the following relationship:</p>
 <p>Marking these points on the graph, we will know that <span class="math notranslate nohighlight">\(c &lt; a &lt; b\)</span>.</p>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q8">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.8 </span></p>
-<div class="section" id="exercise-content">
-<p>Supposing <span class="math notranslate nohighlight">\(0&lt;x&lt;y&lt;a&lt;1\)</span>, which of the followings is correct?</p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\log_a (xy)&lt;0\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(0&lt;\log_a(xy)&lt;1\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(1&lt;\log_a(xy)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\log_a(xy)&gt;2\)</span></p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-15">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-24">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q8"> Exercise 7.8</a></p>
 <div class="section" id="solution-content">
@@ -591,22 +725,7 @@ then they have the following relationship:</p>
 <p>Therefore <span class="math notranslate nohighlight">\(\log_a x + \log_a y = \log_a (xy) = m+n&gt;2 \)</span></p>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q9">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.9 </span></p>
-<div class="section" id="exercise-content">
-<p>Supposing <span class="math notranslate nohighlight">\(f(x)=\log\dfrac{2+x}{2-x}\)</span>, the domain of
-the <span class="math notranslate nohighlight">\( g(x)=
-f\left(\dfrac{x}{2}\right)+f\left(\dfrac{2}{x}\right)\)</span> should be :</p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\((-4, 0) \cup (0, 4)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\((-4, -1) \cup (1, 4)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\((-2, -1) \cup (1, 2)\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\((-4, -2) \cup (2, 4)\)</span></p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-17">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-25">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q9"> Exercise 7.9</a></p>
 <div class="section" id="solution-content">
@@ -633,29 +752,7 @@ f\left(\dfrac{x}{2}\right)+f\left(\dfrac{2}{x}\right)\)</span> should be :</p>
 \]</div>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q10">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.10 </span></p>
-<div class="section" id="exercise-content">
-<div class="math notranslate nohighlight">
-\[\begin{split}
-  f(x) = \left\{
-    \begin{array}{ll}
-      (3a-1)x+4a, &amp; x&lt;1 \\
-      \log_a x, &amp; x\geq 1
-    \end{array}
-    \right.
-\end{split}\]</div>
-<p>is a decreasing function, the range of <span class="math notranslate nohighlight">\(a\)</span> is:</p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(0&lt;a&lt;1\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\displaystyle 0&lt;a&lt;\dfrac{1}{3}\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\displaystyle \dfrac{1}{7}\leq a &lt; \dfrac{1}{3}\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\displaystyle \dfrac{1}{7} \leq a &lt; 1\)</span></p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-19">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-26">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q10"> Exercise 7.10</a></p>
 <div class="section" id="solution-content">
@@ -691,51 +788,7 @@ than 1, therefore</p>
 \]</div>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q11">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.11 </span></p>
-<div class="section" id="exercise-content">
-<p>The domain of the function <span class="math notranslate nohighlight">\(y=\log_a(kx^2+4kx+3)\)</span> is <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>, find the
-ranges of <span class="math notranslate nohighlight">\(k\)</span>.</p>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-21">
-
-<p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q11"> Exercise 7.11</a></p>
-<div class="section" id="solution-content">
-<p>For a general logarithm function <span class="math notranslate nohighlight">\(f(x)=\log_a x\)</span>, <span class="math notranslate nohighlight">\(x\)</span> should be larger than zero.
-So for <span class="math notranslate nohighlight">\(y=\log_a (kx^2+4kx+3)\)</span>, we can obtain</p>
-<div class="math notranslate nohighlight">
-\[kx^2+4kx+3&gt;0
-\]</div>
-<p>for <span class="math notranslate nohighlight">\(x\in \mathbb{R}\)</span>. We need to find the minimum value
-of <span class="math notranslate nohighlight">\(g(x)=kx^2+4kx+3\)</span> and ensure it is larger than zero</p>
-<div class="amsmath math notranslate nohighlight">
-\[\begin{align*}
-  g(x)= &amp; kx^2+4kx+3 \\
-  = &amp; kx^2+4kx+4k-4k+3 \\
-  = &amp; k(x^2+4x+4)-4k+3 \\
-  = &amp; k(x+2)^2 +3-4k
-\end{align*}\]</div>
-<p>When <span class="math notranslate nohighlight">\(x=-2\)</span>, the minimum of <span class="math notranslate nohighlight">\(g(x)\)</span> is <span class="math notranslate nohighlight">\(3-4k\)</span> and it should be larger than zero, so</p>
-<div class="math notranslate nohighlight">
-\[3-4k&gt;0
-\]</div>
-<p>therefore</p>
-<div class="math notranslate nohighlight">
-\[k&lt; \dfrac{3}{4}
-\]</div>
-</div>
-</div>
-<div class="exercise admonition" id="chap07-extraEx-q12">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.12 </span></p>
-<div class="section" id="exercise-content">
-<p>Function <span class="math notranslate nohighlight">\(f(x)=2ax+2a+1\)</span>, <span class="math notranslate nohighlight">\(x \in [-1, 1]\)</span> has both positive and
-negative values, find the ranges of <span class="math notranslate nohighlight">\(a\)</span>.</p>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-23">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-27">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q12"> Exercise 7.12</a></p>
 <div class="section" id="solution-content">
@@ -755,17 +808,7 @@ extrema (maximum and minimum).</p>
 \]</div>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q13">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.13 </span></p>
-<div class="section" id="exercise-content">
-<p>The brightness of light reduces by <span class="math notranslate nohighlight">\(10\%\)</span> when the light passes
-through a piece of glass of 1 cm thickness. How many pieces of glasses with
-the same thickness would be needed to reduce the brightness of light by
-<span class="math notranslate nohighlight">\(\dfrac{2}{3}\)</span>.</p>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-25">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-28">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q13"> Exercise 7.13</a></p>
 <div class="section" id="solution-content">
@@ -786,19 +829,7 @@ brightness is</p>
 <p>Thus we need 11 pieces of glasses.</p>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q14">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.14 </span></p>
-<div class="section" id="exercise-content">
-<p>Supposing <span class="math notranslate nohighlight">\(a&gt;0\)</span>, <span class="math notranslate nohighlight">\(\displaystyle f(x)= \dfrac{e^x}{a}+\dfrac{a}{e^x}\)</span>
-is an even function.</p>
-<ol class="arabic simple">
-<li><p>Find the value of <span class="math notranslate nohighlight">\(a\)</span>;</p></li>
-<li><p>Prove that <span class="math notranslate nohighlight">\(f(x)\)</span> is an increasing function for <span class="math notranslate nohighlight">\(x\in (0, +\infty)\)</span>.</p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-27">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-29">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q14"> Exercise 7.14</a></p>
 <div class="section" id="solution-content">
@@ -852,20 +883,7 @@ have proved <span class="math notranslate nohighlight">\(f(x)\)</span> is an inc
 </ol>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q15">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.15 </span></p>
-<div class="section" id="exercise-content">
-<p>Supposing the domain of the function <span class="math notranslate nohighlight">\(\displaystyle f(x) =
-\sqrt{2-\dfrac{x+3}{x-1}}\)</span> is <span class="math notranslate nohighlight">\(\mathbf{A}\)</span>, the domain of the function
-<span class="math notranslate nohighlight">\(g(x) = \log \left[(x-a-1)(2a-x)\right]\)</span>, <span class="math notranslate nohighlight">\(a&lt;1\)</span> is <span class="math notranslate nohighlight">\(\mathbf{B}\)</span>.</p>
-<ol class="arabic simple">
-<li><p>Find <span class="math notranslate nohighlight">\(\mathbf{A}\)</span>;</p></li>
-<li><p>If <span class="math notranslate nohighlight">\(\mathbf{B} \subseteq \mathbf{A}\)</span>, find the ranges of <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
-</ol>
-</div>
-</div>
-<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-29">
+<div class="solution dropdown admonition" id="extraEx/extraEx7-solution-30">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q15"> Exercise 7.15</a></p>
 <div class="section" id="solution-content">
@@ -916,23 +934,6 @@ have proved <span class="math notranslate nohighlight">\(f(x)\)</span> is an inc
 </ol>
 </div>
 </div>
-<div class="exercise admonition" id="chap07-extraEx-q16">
-
-<p class="admonition-title"><span class="caption-number">Exercise 7.16 </span></p>
-<div class="section" id="exercise-content">
-<p>Sketch the inverse function for each function in the following graphs.</p>
-<ol class="arabic">
-<li><div class="figure align-default" id="figure-ex7q16a">
-<a class="reference internal image-reference" href="../_images/Ex7Q16a.svg"><img alt="../_images/Ex7Q16a.svg" src="../_images/Ex7Q16a.svg" width="400px" /></a>
-</div>
-</li>
-<li><div class="figure align-default" id="figure-ex7q16b">
-<a class="reference internal image-reference" href="../_images/Ex7Q16b.svg"><img alt="../_images/Ex7Q16b.svg" src="../_images/Ex7Q16b.svg" width="400px" /></a>
-</div>
-</li>
-</ol>
-</div>
-</div>
 <div class="solution dropdown admonition" id="extraEx/extraEx7-solution-31">
 
 <p class="admonition-title">Solution to<a class="reference internal" href="#chap07-extraEx-q16"> Exercise 7.16</a></p>
@@ -948,6 +949,7 @@ have proved <span class="math notranslate nohighlight">\(f(x)\)</span> is an inc
 </div>
 </li>
 </ol>
+</div>
 </div>
 </div>
 </div>
@@ -998,6 +1000,20 @@ have proved <span class="math notranslate nohighlight">\(f(x)\)</span> is an inc
             
             
               
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#solutions-to-challenging-exercise-7">7.1. Solutions to Challenging Exercise 7</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
             
           </div>
           <footer class="bd-footer-content">
@@ -1026,7 +1042,7 @@ By Dr Zhihua Ma
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Saturday 06 January 2024 23:45:42.
+  Last updated on Sunday 07 January 2024 13:39:24.
   <br/>
 </p>
   </div>

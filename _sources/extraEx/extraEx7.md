@@ -15,17 +15,7 @@
 
 :::
 
-:::{solution} chap07-extraEx-q1
-:class: dropdown
-Supposing $f(x)=x^2$, it is an even function and symmetric about $x=0$. We could obtain $f(x-1)=(x-1)^2$, it is symmetric about $x=1$ as shown in the following figure.
 
-```{figure} /images/07/Ex7Q1.svg
----
-width: 400px
-name: figure-Ex7Q1
----
-```
-:::
  
 
 %Q2
@@ -41,21 +31,7 @@ Supposing $0<a<1$ and $b<-1$, which quadrant the function
 1. fourth
 :::  
 
-:::{solution} chap07-extraEx-q2
-:class: dropdown
 
-Supposing $a=0.5$ and $b=-2$, We could have the following graph.
-  
-```{figure} /images/07/Ex7Q2.svg
----
-width: 400px
-name: figure-Ex7Q2
----
-```
-
-Apparently, the curve doesn't pass the first quadrant.
-
-:::
 
 
 %Q3
@@ -70,6 +46,282 @@ condition should $x$ satisfy?
 - $2<x<3$
 - $3<x<4$
 - $4<x<5$
+
+:::
+
+
+
+
+ %Q4
+:::{exercise}
+:label: chap07-extraEx-q4
+
+The sum of the minimum and maximum of $\displaystyle y=a^x$ ($0\leq x  \leq 1$) is 3, then $a$ is: 
+
+
+1.  0.5
+1.  2
+1.  4
+1.  0.25
+
+  
+:::
+
+
+
+  
+  %Q5
+:::{exercise}
+:label: chap07-extraEx-q5
+
+$f(x)$ is an odd function, when $x>0$, $f(x)=\log_2 x$; when $x<0$, $f(x)$ should be :
+  
+  
+1.  $-\log_2 x$
+1.  $\log_2 (-x)$
+1.  $\log_2 x$
+1.  $-\log_2 (-x)$     
+:::
+
+
+
+
+
+  %Q6
+:::{exercise}
+:label: chap07-extraEx-q6
+
+ The real solutions of quadratic equation $2(m+1)x^2+4mx+3m-2=0$ 
+  have the same sign, then $m$ should satisfy:
+  
+
+1.  $-2<m<-1$
+1.  $-2\leq m < -1 $ or $ \dfrac{2}{3} < m \leq 1$       
+1.  $m<-1$ or $ m> \dfrac{2}{3}$
+1.  $-2<m<-1$ or $ \dfrac{2}{3}<m \leq 1$
+
+
+:::
+
+
+
+  %Q7
+:::{exercise}
+:label: chap07-extraEx-q7
+
+ $f(x)$ is odd function and $f(x+2)=f(x)$, when $0<x<1$, $f(x)=\log_2
+  x$. Supposing $\displaystyle a=f\left(\dfrac{6}{5}\right)$, $\displaystyle
+  b=f\left(\dfrac{3}{2}\right)$, $\displaystyle c=f\left(\dfrac{5}{2}\right)$,
+  then they have the following relationship:
+
+
+1.  $a<b<c$
+1.  $b<a<c$
+1.  $c<b<a$
+1.  $c<a<b$     
+        
+
+
+:::
+
+
+
+  %Q8 
+:::{exercise} 
+:label: chap07-extraEx-q8
+
+Supposing $0<x<y<a<1$, which of the followings is correct?
+ 
+
+1.  $\log_a (xy)<0$
+1.  $0<\log_a(xy)<1$
+1.  $1<\log_a(xy)$
+1.  $\log_a(xy)>2$    
+:::
+
+
+
+  %Q9 
+:::{exercise}
+:label: chap07-extraEx-q9
+
+Supposing $f(x)=\log\dfrac{2+x}{2-x}$, the domain of
+the $ g(x)=
+f\left(\dfrac{x}{2}\right)+f\left(\dfrac{2}{x}\right)$ should be :
+
+
+1.  $(-4, 0) \cup (0, 4)$
+1.  $(-4, -1) \cup (1, 4)$        
+1.  $(-2, -1) \cup (1, 2)$
+1.  $(-4, -2) \cup (2, 4)$
+
+:::
+
+  %Q10
+:::{exercise}
+:label: chap07-extraEx-q10
+
+$$
+  f(x) = \left\{
+    \begin{array}{ll}
+      (3a-1)x+4a, & x<1 \\
+      \log_a x, & x\geq 1
+    \end{array}
+    \right.
+$$
+
+is a decreasing function, the range of $a$ is:
+
+
+1.  $0<a<1$
+1.  $\displaystyle 0<a<\dfrac{1}{3}$
+1.  $\displaystyle \dfrac{1}{7}\leq a < \dfrac{1}{3}$    
+1.  $\displaystyle \dfrac{1}{7} \leq a < 1$
+
+
+:::
+
+
+
+  %Q11
+:::{exercise} 
+:label: chap07-extraEx-q11
+
+The domain of the function $y=\log_a(kx^2+4kx+3)$ is $\mathbb{R}$, find the
+ranges of $k$.
+:::
+
+:::{solution} chap07-extraEx-q11
+:class: dropdown
+For a general logarithm function $f(x)=\log_a x$, $x$ should be larger than zero.
+So for $y=\log_a (kx^2+4kx+3)$, we can obtain
+
+$$kx^2+4kx+3>0
+$$
+ for $x\in \mathbb{R}$. We need to find the minimum value
+of $g(x)=kx^2+4kx+3$ and ensure it is larger than zero
+\begin{align*}
+  g(x)= & kx^2+4kx+3 \\
+  = & kx^2+4kx+4k-4k+3 \\
+  = & k(x^2+4x+4)-4k+3 \\
+  = & k(x+2)^2 +3-4k
+\end{align*}
+When $x=-2$, the minimum of $g(x)$ is $3-4k$ and it should be larger than zero, so
+
+$$3-4k>0
+$$
+
+therefore 
+
+$$k< \dfrac{3}{4}
+$$
+    
+:::
+
+
+  %Q12
+:::{exercise} 
+:label: chap07-extraEx-q12
+
+Function $f(x)=2ax+2a+1$, $x \in [-1, 1]$ has both positive and
+negative values, find the ranges of $a$.
+:::
+
+
+
+  %Q13
+:::{exercise}
+:label: chap07-extraEx-q13
+
+The brightness of light reduces by $10\%$ when the light passes
+through a piece of glass of 1 cm thickness. How many pieces of glasses with
+the same thickness would be needed to reduce the brightness of light by
+$\dfrac{2}{3}$.
+
+:::
+
+
+
+  %Q14
+:::{exercise}
+:label: chap07-extraEx-q14
+
+Supposing $a>0$, $\displaystyle f(x)= \dfrac{e^x}{a}+\dfrac{a}{e^x}$
+is an even function.
+
+1. Find the value of $a$;
+2. Prove that $f(x)$ is an increasing function for $x\in (0, +\infty)$.
+:::
+
+
+
+
+  %Q15
+:::{exercise} 
+:label: chap07-extraEx-q15
+
+Supposing the domain of the function $\displaystyle f(x) =
+\sqrt{2-\dfrac{x+3}{x-1}}$ is $\mathbf{A}$, the domain of the function 
+$g(x) = \log \left[(x-a-1)(2a-x)\right]$, $a<1$ is $\mathbf{B}$.
+
+1. Find $\mathbf{A}$;
+2. If $\mathbf{B} \subseteq \mathbf{A}$, find the ranges of $a$.
+:::
+
+
+
+  % Q16
+:::{exercise} 
+:label: chap07-extraEx-q16
+
+Sketch the inverse function for each function in the following graphs.
+
+1. 
+    ```{figure} /images/07/Ex7Q16a.svg
+    ---
+    width: 400px
+    name: figure-Ex7Q16a
+    ---
+
+2. 
+    ```{figure} /images/07/Ex7Q16b.svg
+    ---
+    width: 400px
+    name: figure-Ex7Q16b
+    ---
+
+:::
+
+
+
+## Solutions to Challenging Exercise 7
+
+:::{solution} chap07-extraEx-q1
+:class: dropdown
+Supposing $f(x)=x^2$, it is an even function and symmetric about $x=0$. We could obtain $f(x-1)=(x-1)^2$, it is symmetric about $x=1$ as shown in the following figure.
+
+```{figure} /images/07/Ex7Q1.svg
+---
+width: 400px
+name: figure-Ex7Q1
+---
+```
+:::
+
+
+:::{solution} chap07-extraEx-q2
+:class: dropdown
+
+Supposing $a=0.5$ and $b=-2$, We could have the following graph.
+  
+```{figure} /images/07/Ex7Q2.svg
+---
+width: 400px
+name: figure-Ex7Q2
+---
+```
+
+Apparently, the curve doesn't pass the first quadrant.
 
 :::
 
@@ -100,22 +352,6 @@ name: figure-Ex7Q3
   Apparently, the $x-$coordinate of the intersection is between 2 and 3.
 :::
 
-
- %Q4
-:::{exercise}
-:label: chap07-extraEx-q4
-
-The sum of the minimum and maximum of $\displaystyle y=a^x$ ($0\leq x  \leq 1$) is 3, then $a$ is: 
-
-
-1.  0.5
-1.  2
-1.  4
-1.  0.25
-
-  
-:::
-
 :::{solution} chap07-extraEx-q4
 :class: dropdown
   $a^0+a^1=3$
@@ -123,20 +359,6 @@ The sum of the minimum and maximum of $\displaystyle y=a^x$ ($0\leq x  \leq 1$) 
   $1+a=3$
   
   $a=2$
-:::
-
-  
-  %Q5
-:::{exercise}
-:label: chap07-extraEx-q5
-
-$f(x)$ is an odd function, when $x>0$, $f(x)=\log_2 x$; when $x<0$, $f(x)$ should be :
-  
-  
-1.  $-\log_2 x$
-1.  $\log_2 (-x)$
-1.  $\log_2 x$
-1.  $-\log_2 (-x)$     
 :::
 
 :::{solution} chap07-extraEx-q5
@@ -149,24 +371,6 @@ Therefore, when $x<0$  we should have
 
 $$f(x)=-f(|x|) = -\log_2 |x| = -\log_2 (-x) 
 $$
-
-:::
-
-
-
-  %Q6
-:::{exercise}
-:label: chap07-extraEx-q6
-
- The real solutions of quadratic equation $2(m+1)x^2+4mx+3m-2=0$ 
-  have the same sign, then $m$ should satisfy:
-  
-
-1.  $-2<m<-1$
-1.  $-2\leq m < -1 $ or $ \dfrac{2}{3} < m \leq 1$       
-1.  $m<-1$ or $ m> \dfrac{2}{3}$
-1.  $-2<m<-1$ or $ \dfrac{2}{3}<m \leq 1$
-
 
 :::
 
@@ -215,25 +419,6 @@ $$
 :::
 
 
-  %Q7
-:::{exercise}
-:label: chap07-extraEx-q7
-
- $f(x)$ is odd function and $f(x+2)=f(x)$, when $0<x<1$, $f(x)=\log_2
-  x$. Supposing $\displaystyle a=f\left(\dfrac{6}{5}\right)$, $\displaystyle
-  b=f\left(\dfrac{3}{2}\right)$, $\displaystyle c=f\left(\dfrac{5}{2}\right)$,
-  then they have the following relationship:
-
-
-1.  $a<b<c$
-1.  $b<a<c$
-1.  $c<b<a$
-1.  $c<a<b$     
-        
-
-
-:::
-
 :::{solution} chap07-extraEx-q7
 :class: dropdown
 When $0<x<1$, $f(x)=\log_2 x$ and it is an odd function, so we have the following graph
@@ -257,19 +442,6 @@ We also know that the function is periodic, and its period is 2. So we can obtai
 Marking these points on the graph, we will know that $c < a < b$.
 :::
 
-  %Q8 
-:::{exercise} 
-:label: chap07-extraEx-q8
-
-Supposing $0<x<y<a<1$, which of the followings is correct?
- 
-
-1.  $\log_a (xy)<0$
-1.  $0<\log_a(xy)<1$
-1.  $1<\log_a(xy)$
-1.  $\log_a(xy)>2$    
-:::
-
 :::{solution} chap07-extraEx-q8
 :class: dropdown
 Assuming $a^m = x$ and $a^n=y$, we could obtain that
@@ -285,23 +457,6 @@ So
 Therefore $\log_a x + \log_a y = \log_a (xy) = m+n>2 $
 :::
 
-
-  %Q9 
-:::{exercise}
-:label: chap07-extraEx-q9
-
-Supposing $f(x)=\log\dfrac{2+x}{2-x}$, the domain of
-the $ g(x)=
-f\left(\dfrac{x}{2}\right)+f\left(\dfrac{2}{x}\right)$ should be :
-
-
-1.  $(-4, 0) \cup (0, 4)$
-1.  $(-4, -1) \cup (1, 4)$        
-1.  $(-2, -1) \cup (1, 2)$
-1.  $(-4, -2) \cup (2, 4)$
-
-
-:::
 
 :::{solution} chap07-extraEx-q9
 :class: dropdown
@@ -329,30 +484,6 @@ $$
 
 :::
 
-
-  %Q10
-:::{exercise}
-:label: chap07-extraEx-q10
-
-$$
-  f(x) = \left\{
-    \begin{array}{ll}
-      (3a-1)x+4a, & x<1 \\
-      \log_a x, & x\geq 1
-    \end{array}
-    \right.
-$$
-
-is a decreasing function, the range of $a$ is:
-
-
-1.  $0<a<1$
-1.  $\displaystyle 0<a<\dfrac{1}{3}$
-1.  $\displaystyle \dfrac{1}{7}\leq a < \dfrac{1}{3}$    
-1.  $\displaystyle \dfrac{1}{7} \leq a < 1$
-
-
-:::
 
 :::{solution} chap07-extraEx-q10
 :class: dropdown
@@ -399,50 +530,6 @@ $$
 :::
 
 
-  %Q11
-:::{exercise} 
-:label: chap07-extraEx-q11
-
-The domain of the function $y=\log_a(kx^2+4kx+3)$ is $\mathbb{R}$, find the
-ranges of $k$.
-:::
-
-:::{solution} chap07-extraEx-q11
-:class: dropdown
-For a general logarithm function $f(x)=\log_a x$, $x$ should be larger than zero.
-So for $y=\log_a (kx^2+4kx+3)$, we can obtain
-
-$$kx^2+4kx+3>0
-$$
- for $x\in \mathbb{R}$. We need to find the minimum value
-of $g(x)=kx^2+4kx+3$ and ensure it is larger than zero
-\begin{align*}
-  g(x)= & kx^2+4kx+3 \\
-  = & kx^2+4kx+4k-4k+3 \\
-  = & k(x^2+4x+4)-4k+3 \\
-  = & k(x+2)^2 +3-4k
-\end{align*}
-When $x=-2$, the minimum of $g(x)$ is $3-4k$ and it should be larger than zero, so
-
-$$3-4k>0
-$$
-
-therefore 
-
-$$k< \dfrac{3}{4}
-$$
-    
-:::
-
-
-  %Q12
-:::{exercise} 
-:label: chap07-extraEx-q12
-
-Function $f(x)=2ax+2a+1$, $x \in [-1, 1]$ has both positive and
-negative values, find the ranges of $a$.
-:::
-
 :::{solution} chap07-extraEx-q12
 :class: dropdown
 This is a straight line segment, at the two ends the function has the two
@@ -462,17 +549,6 @@ $$
 
 :::
 
-
-  %Q13
-:::{exercise}
-:label: chap07-extraEx-q13
-
-The brightness of light reduces by $10\%$ when the light passes
-through a piece of glass of 1 cm thickness. How many pieces of glasses with
-the same thickness would be needed to reduce the brightness of light by
-$\dfrac{2}{3}$.
-
-:::
 
 :::{solution} chap07-extraEx-q13
 :class: dropdown
@@ -496,17 +572,6 @@ $$
 Thus we need 11 pieces of glasses.
 :::
 
-
-  %Q14
-:::{exercise}
-:label: chap07-extraEx-q14
-
-Supposing $a>0$, $\displaystyle f(x)= \dfrac{e^x}{a}+\dfrac{a}{e^x}$
-is an even function.
-
-1. Find the value of $a$;
-2. Prove that $f(x)$ is an increasing function for $x\in (0, +\infty)$.
-:::
 
 :::{solution} chap07-extraEx-q14
 :class: dropdown
@@ -563,19 +628,6 @@ is an even function.
 :::
 
 
-
-  %Q15
-:::{exercise} 
-:label: chap07-extraEx-q15
-
-Supposing the domain of the function $\displaystyle f(x) =
-\sqrt{2-\dfrac{x+3}{x-1}}$ is $\mathbf{A}$, the domain of the function 
-$g(x) = \log \left[(x-a-1)(2a-x)\right]$, $a<1$ is $\mathbf{B}$.
-
-1. Find $\mathbf{A}$;
-2. If $\mathbf{B} \subseteq \mathbf{A}$, find the ranges of $a$.
-:::
-
 :::{solution} chap07-extraEx-q15
 :class: dropdown
 1.
@@ -629,29 +681,6 @@ $g(x) = \log \left[(x-a-1)(2a-x)\right]$, $a<1$ is $\mathbf{B}$.
     $$
 
     Because $a<1$, so we should have $a\le 0$ to ensure $\mathbf{B}$ is a subset of $\mathbf{A}$.
-:::
-
-
-  % Q16
-:::{exercise} 
-:label: chap07-extraEx-q16
-
-Sketch the inverse function for each function in the following graphs.
-
-1. 
-    ```{figure} /images/07/Ex7Q16a.svg
-    ---
-    width: 400px
-    name: figure-Ex7Q16a
-    ---
-
-2. 
-    ```{figure} /images/07/Ex7Q16b.svg
-    ---
-    width: 400px
-    name: figure-Ex7Q16b
-    ---
-
 :::
 
 :::{solution} chap07-extraEx-q16
