@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1252"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="209.982 142.482 551.036 84.518" xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw" version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="drawing" id="id2071297009">
+            <g latexdraw:type="joinedLines" id="id450831303">
+                <polyline points="239.0,173.49998474121094 729.0,173.49998474121094 " stroke="black" stroke-width="2.0" fill="none" latexdraw:rotationAngle="0.0"/>
+            </g>
+            <g latexdraw:type="dot" id="id1468670964" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="240.0 173.49998474121094">
+                <ellipse cx="240.0" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id247302433" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="289.09999084472656 173.49998474121094">
+                <ellipse cx="289.09999084472656" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id865291874" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="338.1999969482422 173.49998474121094">
+                <ellipse cx="338.1999969482422" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id1668980609" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="387.3000030517578 173.49998474121094">
+                <ellipse cx="387.3000030517578" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id705013001" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="436.40000915527344 173.49998474121094">
+                <ellipse cx="436.40000915527344" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id1945507560" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="485.5 173.49998474121094">
+                <ellipse cx="485.5" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id1975790377" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="534.5999908447266 173.49998474121094">
+                <ellipse cx="534.5999908447266" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id235573544" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="583.7000122070312 173.49998474121094">
+                <ellipse cx="583.7000122070312" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id1680719644" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="632.7999877929688 173.49998474121094">
+                <ellipse cx="632.7999877929688" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id912637311" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="681.8999938964844 173.49998474121094">
+                <ellipse cx="681.8999938964844" cy="173.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+            <g latexdraw:type="dot" id="id1558835748" latexdraw:size="10.017869035627893" latexdraw:dotShape="*" latexdraw:position="731.0 172.49998474121094">
+                <ellipse cx="731.0" cy="172.49998474121094" rx="4.623631862597489" ry="4.623631862597489" stroke-width="0.6261168147267433" stroke-linecap="square" stroke="black" fill="black"/>
+            </g>
+        </g>
+        <g latexdraw:type="text" id="id356048417" fill="black" latexdraw:position="bl">
+            <text x="236.74131944444446" y="207.0">1</text>
+        </g>
+        <g latexdraw:type="text" id="id147670532" fill="black" latexdraw:position="bl">
+            <text x="330.99305555555554" y="207.0">3</text>
+        </g>
+        <g latexdraw:type="text" id="id1977566781" fill="black" latexdraw:position="bl">
+            <text x="382.24479166666663" y="207.0">4</text>
+        </g>
+        <g latexdraw:type="text" id="id1662593468" fill="black" latexdraw:position="bl">
+            <text x="435.49652777777777" y="207.0">5</text>
+        </g>
+        <g latexdraw:type="text" id="id1435428673" fill="black" latexdraw:position="bl">
+            <text x="483.7482638888889" y="207.0">6</text>
+        </g>
+        <g latexdraw:type="text" id="id1358712209" fill="black" latexdraw:position="bl">
+            <text x="531.0" y="207.0">7</text>
+        </g>
+        <g latexdraw:type="text" id="id1431523154" fill="black" latexdraw:position="bl">
+            <text x="583.0" y="207.0">8</text>
+        </g>
+        <g latexdraw:type="text" id="id1817199844" fill="black" latexdraw:position="bl">
+            <text x="629.2517361111111" y="207.0">9</text>
+        </g>
+        <g latexdraw:type="text" id="id1028104600" fill="black" latexdraw:position="bl">
+            <text x="680.5034722222222" y="207.0">10</text>
+        </g>
+        <g latexdraw:type="text" id="id1181437768" fill="black" latexdraw:position="bl">
+            <text x="729.7552083333334" y="207.0">11</text>
+        </g>
+        <g latexdraw:type="text" id="id1366862883" fill="black" latexdraw:position="bl">
+            <text x="282.74131944444446" y="207.0">2</text>
+        </g>
+    </g>
+    <defs/>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:centreHoriz>false</latexdraw:centreHoriz>
+            <latexdraw:positionVert>t</latexdraw:positionVert>
+            <latexdraw:zoom>1.0</latexdraw:zoom>
+            <latexdraw:vpx>0.5</latexdraw:vpx>
+            <latexdraw:vpy>0.353</latexdraw:vpy>
+        </latexdraw:metadata>
+    </metadata>
+</svg>
