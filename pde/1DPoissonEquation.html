@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>2. 1D Poisson Equation &#8212; Foundation Mathematics</title>
+    <title>1. 1D Poisson Equation &#8212; Numerical Methods for Partial Differential Equations</title>
   
   
   
@@ -72,11 +72,11 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'pde/1DPoissonEquation';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3. 2D Poisson Equation" href="2DPoissonEquation-xy.html" />
+    <link rel="next" title="2. 2D Poisson Equation" href="2DPoissonEquation-xy.html" />
     <link rel="prev" title="1. Sparse Matrices" href="sparseMatrix.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Wednesday 24 April 2024 14:03:29"/>
+    <meta name="docbuild:last-update" content="Wednesday 24 April 2024 20:28:14"/>
   </head>
   
   
@@ -164,33 +164,20 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
-    
-    
-      
-    
-    
-    <img src="../_static/logob.svg" class="logo__image only-light" alt="Foundation Mathematics - Home"/>
-    <script>document.write(`<img src="../_static/logob.svg" class="logo__image only-dark" alt="Foundation Mathematics - Home"/>`);</script>
   
+    <p class="title logo__title">Numerical Methods for Partial Differential Equations</p>
   
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Challenging Exercises</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Sparse Matrices</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx1.html">1. Challenging Exercise 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx2.html">2. Challenging Exercise 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx3.html">3. Challenging Exercise 3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx4.html">4. Challenging Exercise 4</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx5.html">5. Challenging Exercise 5</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx6.html">6. Challenging Exercise 6</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extraEx/extraEx7.html">7. Challenging Exercise 7</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Partial Differential Equations</span></p>
-<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="sparseMatrix.html">1. Sparse Matrices</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">2. 1D Poisson Equation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2DPoissonEquation-xy.html">3. 2D Poisson Equation</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">1. 1D Poisson Equation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2DPoissonEquation-xy.html">2. 2D Poisson Equation</a></li>
 </ul>
 
     </div>
@@ -339,22 +326,22 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#domain-discretisation">2.1. Domain Discretisation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#equation-discretisation">2.2. Equation Discretisation</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#point-iteration-method">2.2.1. Point Iteration Method</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-algebra-method">2.2.2. Linear Algebra Method</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#domain-discretisation">1.1. Domain Discretisation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#equation-discretisation">1.2. Equation Discretisation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#point-iteration-method">1.2.1. Point Iteration Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-algebra-method">1.2.2. Linear Algebra Method</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-code-for-linear-algebra-method">2.3. Python Code for Linear Algebra Method</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-python-libraries">2.3.1. Import python libraries</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#define-mesh-and-initial-numerical-exact-solutions">2.3.2. Define mesh and initial numerical &amp; exact solutions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-dense-linear-system-au-r">2.3.3. Assemble the dense linear system: <span class="math notranslate nohighlight">\(Au=r\)</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-linear-system-au-r">2.3.4. Solve the linear system: Au=r</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#try-sparse-linear-algebra">2.3.5. Try sparse linear algebra</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-dense-matrix-to-csr-matrix">2.3.5.1. Convert Dense matrix to CSR matrix</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-sparse-matrix-in-coo-format">2.3.5.2. Assemble the sparse matrix in COO format</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-sparse-linear-system-au-r">2.3.5.3. Solve the sparse linear system Au=r</a><ul class="nav section-nav flex-column">
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-errors">2.3.5.3.1. Plot errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-code-for-linear-algebra-method">1.3. Python Code for Linear Algebra Method</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-python-libraries">1.3.1. Import python libraries</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#define-mesh-and-initial-numerical-exact-solutions">1.3.2. Define mesh and initial numerical &amp; exact solutions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-dense-linear-system-au-r">1.3.3. Assemble the dense linear system: <span class="math notranslate nohighlight">\(Au=r\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-linear-system-au-r">1.3.4. Solve the linear system: Au=r</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#try-sparse-linear-algebra">1.3.5. Try sparse linear algebra</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-dense-matrix-to-csr-matrix">1.3.5.1. Convert Dense matrix to CSR matrix</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-sparse-matrix-in-coo-format">1.3.5.2. Assemble the sparse matrix in COO format</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-sparse-linear-system-au-r">1.3.5.3. Solve the sparse linear system Au=r</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-errors">1.3.5.3.1. Plot errors</a></li>
 </ul>
 </li>
 </ul>
@@ -373,13 +360,13 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="d-poisson-equation">
-<h1><span class="section-number">2. </span>1D Poisson Equation<a class="headerlink" href="#d-poisson-equation" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">1. </span>1D Poisson Equation<a class="headerlink" href="#d-poisson-equation" title="Permalink to this heading">#</a></h1>
 <div class="math notranslate nohighlight">
 \[\dfrac{\mathrm{d}^2 u}{ \mathrm{d} x^2}=f, \quad x \in [a, b]\]</div>
 <div class="math notranslate nohighlight">
 \[u(a)=u_a, \quad u(b)=u_b\]</div>
 <section id="domain-discretisation">
-<h2><span class="section-number">2.1. </span>Domain Discretisation<a class="headerlink" href="#domain-discretisation" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.1. </span>Domain Discretisation<a class="headerlink" href="#domain-discretisation" title="Permalink to this heading">#</a></h2>
 <p><img alt="1d mesh" src="../_images/1dmesh.png" /></p>
 <p>Divide the domain uniformlly into <span class="math notranslate nohighlight">\(M\)</span> parts by using <span class="math notranslate nohighlight">\(N=M+1\)</span> points, so the step size is</p>
 <div class="math notranslate nohighlight">
@@ -392,7 +379,7 @@ document.write(`
 \[u[1]=u_a, \quad u[N]=u_b\]</div>
 </section>
 <section id="equation-discretisation">
-<h2><span class="section-number">2.2. </span>Equation Discretisation<a class="headerlink" href="#equation-discretisation" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.2. </span>Equation Discretisation<a class="headerlink" href="#equation-discretisation" title="Permalink to this heading">#</a></h2>
 <p>At point <span class="math notranslate nohighlight">\(i\)</span>,</p>
 <div class="math notranslate nohighlight">
 \[\dfrac{u_{i-1}-2u_{i}+u_{i+1}}{h^2}=f_i\]</div>
@@ -400,13 +387,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[u_{i-1}-2u_{i}+u_{i+1}=h^2 f_i\]</div>
 <section id="point-iteration-method">
-<h3><span class="section-number">2.2.1. </span>Point Iteration Method<a class="headerlink" href="#point-iteration-method" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.2.1. </span>Point Iteration Method<a class="headerlink" href="#point-iteration-method" title="Permalink to this heading">#</a></h3>
 <p>A point iteration can be used to find <span class="math notranslate nohighlight">\(u_i\)</span> as</p>
 <div class="math notranslate nohighlight">
 \[ u_{i} = \frac{1}{2} \Bigl( u_{i-1} + u_{i+1} - h^2 f_i \Bigr)\]</div>
 </section>
 <section id="linear-algebra-method">
-<h3><span class="section-number">2.2.2. </span>Linear Algebra Method<a class="headerlink" href="#linear-algebra-method" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.2.2. </span>Linear Algebra Method<a class="headerlink" href="#linear-algebra-method" title="Permalink to this heading">#</a></h3>
 <p>Supposing <span class="math notranslate nohighlight">\(N=11\)</span>, write down all the 11 equations (at mesh points):</p>
 <p><span class="math notranslate nohighlight">\(u_1=u_a\)</span></p>
 <p><span class="math notranslate nohighlight">\(u_{1}-2u_{2}+u_{3}=h^2 f_2\)</span></p>
@@ -424,58 +411,56 @@ document.write(`
 $u_{N-3}-2u_{N-2}+u_{N-1}=h^2 f_{N-2}$
 
 $u_{N-2}-2u_{N-1}+u_{N}=h^2 f_{N-1}$ -->
-<p>Assemble these equations into a linear system <span class="math notranslate nohighlight">\(Au=r\)</span>
-$$</p>
-<div class="amsmath math notranslate nohighlight" id="equation-442ee466-8c0b-4ebb-b39b-dc7ee545b5ea">
-<span class="eqno">(2.1)<a class="headerlink" href="#equation-442ee466-8c0b-4ebb-b39b-dc7ee545b5ea" title="Permalink to this equation">#</a></span>\[\begin{bmatrix}
-1 &amp;  0 &amp; 0\\
-1 &amp; -2 &amp;  1 &amp; 0\\
-0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
-0 &amp;  0 &amp;  1 &amp; -2 &amp;  1 &amp; 0   \\
-0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
-0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
-0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
-0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
-0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
-0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  \\
-0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp; 1  \\
-\end{bmatrix}\]</div>
-<div class="amsmath math notranslate nohighlight" id="equation-0f292db9-91ee-4e8a-a4f5-af472d9f0340">
-<span class="eqno">(2.2)<a class="headerlink" href="#equation-0f292db9-91ee-4e8a-a4f5-af472d9f0340" title="Permalink to this equation">#</a></span>\[\begin{bmatrix}
-u_1 \\
-u_2 \\
-u_3 \\
-u_4 \\
-u_5 \\
-u_6 \\
-u_7 \\
-u_8 \\
-u_9 \\
-u_{10} \\
-u_{11} \\
-\end{bmatrix}\]</div>
-<p>=</p>
-<div class="amsmath math notranslate nohighlight" id="equation-56641e01-040a-475d-93d2-6707322ca516">
-<span class="eqno">(2.3)<a class="headerlink" href="#equation-56641e01-040a-475d-93d2-6707322ca516" title="Permalink to this equation">#</a></span>\[\begin{bmatrix}
-u_{a} \\
-h^2 f_2 \\
-h^2 f_3 \\
-h^2 f_4 \\
-h^2 f_5 \\
-h^2 f_6 \\
-h^2 f_7 \\
-h^2 f_8 \\
-h^2 f_9 \\
-h^2 f_{10} \\
-u_{b} \\
-\end{bmatrix}\]</div>
-<p>$$</p>
+<p>Assemble these equations into a linear system <span class="math notranslate nohighlight">\(Au=r\)</span></p>
+<div class="math notranslate nohighlight" id="equation-eq-linear-sparse">
+<span class="eqno">(1.1)<a class="headerlink" href="#equation-eq-linear-sparse" title="Permalink to this equation">#</a></span>\[\begin{split}
+    \begin{bmatrix}
+    1 &amp;  0 &amp; 0\\
+    1 &amp; -2 &amp;  1 &amp; 0\\
+    0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
+    0 &amp;  0 &amp;  1 &amp; -2 &amp;  1 &amp; 0   \\
+    0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
+    0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
+    0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
+    0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
+    0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  &amp; 0\\
+    0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  1 &amp; -2 &amp; 1  \\
+    0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp;  0 &amp; 1  \\
+    \end{bmatrix}
+    \begin{bmatrix}
+    u_1 \\
+    u_2 \\
+    u_3 \\
+    u_4 \\
+    u_5 \\
+    u_6 \\
+    u_7 \\
+    u_8 \\
+    u_9 \\
+    u_{10} \\
+    u_{11} \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    u_{a} \\
+    h^2 f_2 \\
+    h^2 f_3 \\
+    h^2 f_4 \\
+    h^2 f_5 \\
+    h^2 f_6 \\
+    h^2 f_7 \\
+    h^2 f_8 \\
+    h^2 f_9 \\
+    h^2 f_{10} \\
+    u_{b} \\
+    \end{bmatrix}
+\end{split}\]</div>
 </section>
 </section>
 <section id="python-code-for-linear-algebra-method">
-<h2><span class="section-number">2.3. </span>Python Code for Linear Algebra Method<a class="headerlink" href="#python-code-for-linear-algebra-method" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.3. </span>Python Code for Linear Algebra Method<a class="headerlink" href="#python-code-for-linear-algebra-method" title="Permalink to this heading">#</a></h2>
 <section id="import-python-libraries">
-<h3><span class="section-number">2.3.1. </span>Import python libraries<a class="headerlink" href="#import-python-libraries" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.3.1. </span>Import python libraries<a class="headerlink" href="#import-python-libraries" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">pylab</span> inline
@@ -499,7 +484,7 @@ Populating the interactive namespace from numpy and matplotlib
 </div>
 </section>
 <section id="define-mesh-and-initial-numerical-exact-solutions">
-<h3><span class="section-number">2.3.2. </span>Define mesh and initial numerical &amp; exact solutions<a class="headerlink" href="#define-mesh-and-initial-numerical-exact-solutions" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.3.2. </span>Define mesh and initial numerical &amp; exact solutions<a class="headerlink" href="#define-mesh-and-initial-numerical-exact-solutions" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Domain Length</span>
@@ -555,7 +540,7 @@ u: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
 </div>
 </section>
 <section id="assemble-the-dense-linear-system-au-r">
-<h3><span class="section-number">2.3.3. </span>Assemble the dense linear system: <span class="math notranslate nohighlight">\(Au=r\)</span><a class="headerlink" href="#assemble-the-dense-linear-system-au-r" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.3.3. </span>Assemble the dense linear system: <span class="math notranslate nohighlight">\(Au=r\)</span><a class="headerlink" href="#assemble-the-dense-linear-system-au-r" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">##assemble the right hand side: r</span>
@@ -605,7 +590,7 @@ u: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
 </div>
 </section>
 <section id="solve-the-linear-system-au-r">
-<h3><span class="section-number">2.3.4. </span>Solve the linear system: Au=r<a class="headerlink" href="#solve-the-linear-system-au-r" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.3.4. </span>Solve the linear system: Au=r<a class="headerlink" href="#solve-the-linear-system-au-r" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">u</span><span class="o">=</span><span class="n">LA</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">r</span><span class="p">)</span>
@@ -640,9 +625,9 @@ error= 2.0969355746610596e-16
 </div>
 </section>
 <section id="try-sparse-linear-algebra">
-<h3><span class="section-number">2.3.5. </span>Try sparse linear algebra<a class="headerlink" href="#try-sparse-linear-algebra" title="Permalink to this heading">#</a></h3>
+<h3><span class="section-number">1.3.5. </span>Try sparse linear algebra<a class="headerlink" href="#try-sparse-linear-algebra" title="Permalink to this heading">#</a></h3>
 <section id="convert-dense-matrix-to-csr-matrix">
-<h4><span class="section-number">2.3.5.1. </span>Convert Dense matrix to CSR matrix<a class="headerlink" href="#convert-dense-matrix-to-csr-matrix" title="Permalink to this heading">#</a></h4>
+<h4><span class="section-number">1.3.5.1. </span>Convert Dense matrix to CSR matrix<a class="headerlink" href="#convert-dense-matrix-to-csr-matrix" title="Permalink to this heading">#</a></h4>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Acsr</span><span class="o">=</span><span class="n">sparse</span><span class="o">.</span><span class="n">csr_matrix</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
@@ -681,7 +666,7 @@ error= 2.0969355746610596e-16
 </div>
 </section>
 <section id="assemble-the-sparse-matrix-in-coo-format">
-<h4><span class="section-number">2.3.5.2. </span>Assemble the sparse matrix in COO format<a class="headerlink" href="#assemble-the-sparse-matrix-in-coo-format" title="Permalink to this heading">#</a></h4>
+<h4><span class="section-number">1.3.5.2. </span>Assemble the sparse matrix in COO format<a class="headerlink" href="#assemble-the-sparse-matrix-in-coo-format" title="Permalink to this heading">#</a></h4>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#number of non-zero elements in the sparse matrix A</span>
@@ -791,7 +776,7 @@ vals: [ 1.  1. -2.  1.  1. -2.  1.  1. -2.  1.  1. -2.  1.  1. -2.  1.  1. -2.
 </div>
 </section>
 <section id="solve-the-sparse-linear-system-au-r">
-<h4><span class="section-number">2.3.5.3. </span>Solve the sparse linear system Au=r<a class="headerlink" href="#solve-the-sparse-linear-system-au-r" title="Permalink to this heading">#</a></h4>
+<h4><span class="section-number">1.3.5.3. </span>Solve the sparse linear system Au=r<a class="headerlink" href="#solve-the-sparse-linear-system-au-r" title="Permalink to this heading">#</a></h4>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">u2</span><span class="o">=</span><span class="n">sLA</span><span class="o">.</span><span class="n">spsolve</span><span class="p">(</span><span class="n">Acsr</span><span class="p">,</span><span class="n">r</span><span class="p">)</span>
@@ -836,7 +821,7 @@ error3= 3.8654372650192143e-16
 </div>
 </div>
 <section id="plot-errors">
-<h5><span class="section-number">2.3.5.3.1. </span>Plot errors<a class="headerlink" href="#plot-errors" title="Permalink to this heading">#</a></h5>
+<h5><span class="section-number">1.3.5.3.1. </span>Plot errors<a class="headerlink" href="#plot-errors" title="Permalink to this heading">#</a></h5>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
@@ -931,7 +916,7 @@ x[3:3]= []
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">3. </span>2D Poisson Equation</p>
+        <p class="prev-next-title"><span class="section-number">2. </span>2D Poisson Equation</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -951,22 +936,22 @@ x[3:3]= []
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#domain-discretisation">2.1. Domain Discretisation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#equation-discretisation">2.2. Equation Discretisation</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#point-iteration-method">2.2.1. Point Iteration Method</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-algebra-method">2.2.2. Linear Algebra Method</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#domain-discretisation">1.1. Domain Discretisation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#equation-discretisation">1.2. Equation Discretisation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#point-iteration-method">1.2.1. Point Iteration Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-algebra-method">1.2.2. Linear Algebra Method</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-code-for-linear-algebra-method">2.3. Python Code for Linear Algebra Method</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-python-libraries">2.3.1. Import python libraries</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#define-mesh-and-initial-numerical-exact-solutions">2.3.2. Define mesh and initial numerical &amp; exact solutions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-dense-linear-system-au-r">2.3.3. Assemble the dense linear system: <span class="math notranslate nohighlight">\(Au=r\)</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-linear-system-au-r">2.3.4. Solve the linear system: Au=r</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#try-sparse-linear-algebra">2.3.5. Try sparse linear algebra</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-dense-matrix-to-csr-matrix">2.3.5.1. Convert Dense matrix to CSR matrix</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-sparse-matrix-in-coo-format">2.3.5.2. Assemble the sparse matrix in COO format</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-sparse-linear-system-au-r">2.3.5.3. Solve the sparse linear system Au=r</a><ul class="nav section-nav flex-column">
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-errors">2.3.5.3.1. Plot errors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-code-for-linear-algebra-method">1.3. Python Code for Linear Algebra Method</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-python-libraries">1.3.1. Import python libraries</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#define-mesh-and-initial-numerical-exact-solutions">1.3.2. Define mesh and initial numerical &amp; exact solutions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-dense-linear-system-au-r">1.3.3. Assemble the dense linear system: <span class="math notranslate nohighlight">\(Au=r\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-linear-system-au-r">1.3.4. Solve the linear system: Au=r</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#try-sparse-linear-algebra">1.3.5. Try sparse linear algebra</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-dense-matrix-to-csr-matrix">1.3.5.1. Convert Dense matrix to CSR matrix</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assemble-the-sparse-matrix-in-coo-format">1.3.5.2. Assemble the sparse matrix in COO format</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#solve-the-sparse-linear-system-au-r">1.3.5.3. Solve the sparse linear system Au=r</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-errors">1.3.5.3.1. Plot errors</a></li>
 </ul>
 </li>
 </ul>
@@ -1006,7 +991,7 @@ By Dr Zhihua Ma
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Wednesday 24 April 2024 14:03:29.
+  Last updated on Wednesday 24 April 2024 20:28:14.
   <br/>
 </p>
   </div>
